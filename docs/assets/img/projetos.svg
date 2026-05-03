@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="348" viewBox="0 0 344 348" fill="none">
+  <defs>
+    <style>
+      .stroke{stroke:#4B4B4B;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+
+  <!-- Folha -->
+  <path class="stroke" fill="#F3EBDD"
+        d="M92 62h138l34 34v150c0 16-13 29-29 29H92c-16 0-29-13-29-29V91c0-16 13-29 29-29z"/>
+  <!-- Dobra -->
+  <path class="stroke" fill="#E4D8C6"
+        d="M230 62v36c0 10 8 18 18 18h36"/>
+  <path class="stroke" fill="none"
+        d="M230 62l34 34"/>
+
+  <!-- Pontinhos topo -->
+  <circle cx="118" cy="92" r="4.5" fill="#4B4B4B"/>
+  <circle cx="156" cy="92" r="4.5" fill="#4B4B4B"/>
+  <circle cx="194" cy="92" r="4.5" fill="#4B4B4B"/>
+  <circle cx="232" cy="92" r="4.5" fill="#4B4B4B"/>
+
+  <!-- Linhas do documento -->
+  <path class="stroke" d="M106 132h72"/>
+  <path class="stroke" d="M106 156h56"/>
+  <path class="stroke" d="M106 206h92" opacity=".95"/>
+  <path class="stroke" d="M106 230h78" opacity=".95"/>
+
+  <!-- Gráfico de barras -->
+  <rect x="176" y="164" width="18" height="22" rx="4" fill="#3DB4E7" class="stroke"/>
+  <rect x="198" y="150" width="18" height="36" rx="4" fill="#69C54B" class="stroke"/>
+  <rect x="220" y="134" width="18" height="52" rx="4" fill="#F2C34E" class="stroke"/>
+  <rect x="242" y="118" width="18" height="68" rx="4" fill="#E75A4D" class="stroke"/>
+
+  <!-- Lápis (direita) -->
+  <!-- Corpo -->
+  <path class="stroke" fill="#F2A23A"
+        d="M286 108h16v132c0 7-6 13-13 13h-3c-7 0-13-6-13-13V108z"/>
+  <!-- Borracha -->
+  <path class="stroke" fill="#E85A4F" d="M286 88h16c8 0 14 6 14 14v6h-44v-6c0-8 6-14 14-14z"/>
+  <!-- Faixa metálica -->
+  <path class="stroke" fill="#D9DEE6" d="M272 114h44v16h-44z"/>
+  <!-- Ponta -->
+  <path class="stroke" fill="#F6D7A7" d="M286 253h16l-8 26z"/>
+  <path class="stroke" fill="#4B4B4B" d="M294 279l2-6"/>
+
+  <!-- Engrenagem (inferior esquerdo) -->
+  <g transform="translate(78 198)">
+    <!-- dentes -->
+    <path class="stroke" fill="#3DB4E7"
+          d="M78 50l-10-2c-2-6-2-6-4-10l7-8c2-2 2-5 0-7l-6-6c-2-2-5-2-7 0l-8 7c-4-2-4-2-10-4l-2-10c0-3-3-5-6-5H24c-3 0-6 2-6 5l-2 10c-6 2-6 2-10 4l-8-7c-2-2-5-2-7 0l-6 6c-2 2-2 5 0 7l7 8c-2 4-2 4-4 10l-10 2c-3 0-5 3-5 6v8c0 3 2 6 5 6l10 2c2 6 2 6 4 10l-7 8c-2 2-2 5 0 7l6 6c2 2 5 2 7 0l8-7c4 2 4 2 10 4l2 10c0 3 3 5 6 5h8c3 0 6-2 6-5l2-10c6-2 6-2 10-4l8 7c2 2 5 2 7 0l6-6c2-2 2-5 0-7l-7-8c2-4 2-4 4-10l10-2c3 0 5-3 5-6v-8c0-3-2-6-5-6z"/>
+    <!-- círculo interno -->
+    <circle cx="28" cy="54" r="18" fill="#FFFFFF" class="stroke"/>
+    <circle cx="28" cy="54" r="6" fill="#4B4B4B"/>
+  </g>
+</svg>

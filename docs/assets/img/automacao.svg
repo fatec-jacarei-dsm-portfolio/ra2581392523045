@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" fill="none">
+  <defs>
+    <style>
+      .stroke{stroke:#1F4B7A;stroke-width:14;stroke-linecap:round;stroke-linejoin:round}
+      .gear{fill:#A9D4FF;stroke:#1F4B7A;stroke-width:14;stroke-linejoin:round}
+      .node{fill:#FFFFFF;stroke:#1F4B7A;stroke-width:12}
+    </style>
+  </defs>
+
+  <!-- Arco superior direito + seta -->
+  <path class="stroke" d="M248 56c44 14 76 54 76 102 0 20-6 39-16 55"/>
+  <path class="stroke" d="M324 218l-30 8 16-27"/>
+
+  <!-- Arco inferior esquerdo + seta -->
+  <path class="stroke" d="M112 304c-44-14-76-54-76-102 0-20 6-39 16-55"/>
+  <path class="stroke" d="M36 142l30-8-16 27"/>
+
+  <!-- Conexões (circuito) -->
+  <path class="stroke" d="M120 214h54"/>
+  <path class="stroke" d="M120 176h64l28-20"/>
+  <path class="stroke" d="M120 252h64l28 20"/>
+
+  <path class="stroke" d="M240 146h54"/>
+  <path class="stroke" d="M240 184h64l28 20"/>
+  <path class="stroke" d="M240 108h64l28-20"/>
+
+  <!-- Nós -->
+  <circle class="node" cx="174" cy="214" r="10"/>
+  <circle class="node" cx="212" cy="156" r="10"/>
+  <circle class="node" cx="212" cy="272" r="10"/>
+
+  <circle class="node" cx="294" cy="146" r="10"/>
+  <circle class="node" cx="332" cy="204" r="10"/>
+  <circle class="node" cx="332" cy="88" r="10"/>
+
+  <circle class="node" cx="86" cy="176" r="10"/>
+  <circle class="node" cx="86" cy="214" r="10"/>
+  <circle class="node" cx="86" cy="252" r="10"/>
+
+  <!-- Engrenagem superior direita -->
+  <path class="gear" d="
+    M252 78
+    l16 6 12-12 18 12-6 16 16 6v22l-16 6 6 16-18 12-12-12-16 6-6 16h-22l-6-16-16-6-12 12-18-12 6-16-16-6V96l16-6-6-16 18-12 12 12 16-6 6-16h22z"/>
+  <circle class="node" cx="241" cy="113" r="28"/>
+
+  <!-- Engrenagem inferior esquerda -->
+  <path class="gear" d="
+    M140 190
+    l16 6 12-12 18 12-6 16 16 6v22l-16 6 6 16-18 12-12-12-16 6-6 16h-22l-6-16-16-6-12 12-18-12 6-16-16-6v-22l16-6-6-16 18-12 12 12 16-6 6-16h22z"/>
+  <circle class="node" cx="129" cy="225" r="28"/>
+</svg>

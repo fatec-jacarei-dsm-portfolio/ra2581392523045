@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="File Server">
+  <title>File Server</title>
+
+  <!-- =========================
+       COLORS (easy to tweak)
+       ========================= -->
+  <!-- Outline -->
+  <!-- Folder fill -->
+  <!-- Folder tab -->
+  <!-- Paper -->
+  <!-- Stand -->
+  <!-- Base -->
+  <!-- Connector -->
+
+  <!-- Folder (back tab) -->
+  <path
+    d="M128 124
+       c0-22 18-40 40-40h96
+       c14 0 28 6 37 16l18 20
+       h73c22 0 40 18 40 40v16H128z"
+    fill="#F59E0B"
+    stroke="#1F2937"
+    stroke-width="18"
+    stroke-linejoin="round"
+  />
+
+  <!-- Paper behind folder -->
+  <rect
+    x="160" y="140" width="240" height="92" rx="18"
+    fill="#FFFFFF"
+    stroke="#1F2937"
+    stroke-width="18"
+  />
+
+  <!-- Front folder body -->
+  <rect
+    x="112" y="160" width="328" height="228" rx="40"
+    fill="#FBBF24"
+    stroke="#1F2937"
+    stroke-width="18"
+  />
+
+  <!-- Subtle inner line (like the icon style) -->
+  <path
+    d="M150 210h260"
+    stroke="#1F2937"
+    stroke-width="12"
+    stroke-linecap="round"
+    opacity="0.35"
+  />
+
+  <!-- Stand stem -->
+  <rect
+    x="248" y="388" width="16" height="46" rx="8"
+    fill="#9CA3AF"
+    stroke="#1F2937"
+    stroke-width="18"
+  />
+
+  <!-- Connector block -->
+  <rect
+    x="220" y="424" width="72" height="44" rx="14"
+    fill="#374151"
+    stroke="#1F2937"
+    stroke-width="18"
+  />
+
+  <!-- Base bar -->
+  <rect
+    x="120" y="456" width="272" height="28" rx="14"
+    fill="#9CA3AF"
+    stroke="#1F2937"
+    stroke-width="18"
+  />
+</svg>

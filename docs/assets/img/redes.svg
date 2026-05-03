@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="348" viewBox="0 0 344 348" fill="none">
+  <!-- Cor principal (aprox. do ícone) -->
+  <defs>
+    <style>
+      .b{fill:#1E88E5;}
+      .w{fill:#FFFFFF;}
+    </style>
+  </defs>
+
+  <!-- Monitor superior -->
+  <g>
+    <!-- Moldura -->
+    <rect x="122" y="46" width="100" height="64" rx="10" class="b"/>
+    <!-- Tela (vazada/clarinha) -->
+    <rect x="142" y="62" width="60" height="34" rx="4" class="w"/>
+    <!-- Haste -->
+    <rect x="164" y="112" width="16" height="16" rx="4" class="b"/>
+    <!-- Base -->
+    <rect x="152" y="128" width="40" height="14" rx="7" class="b"/>
+  </g>
+
+  <!-- Conectores -->
+  <g class="b">
+    <!-- Tronco vertical -->
+    <rect x="164" y="142" width="16" height="40" rx="8"/>
+    <!-- Nó -->
+    <rect x="158" y="180" width="28" height="22" rx="11"/>
+    <!-- Barra horizontal -->
+    <rect x="64" y="196" width="216" height="26" rx="13"/>
+    <!-- Quedas laterais (com cantos arredondados) -->
+    <rect x="64" y="206" width="22" height="40" rx="11"/>
+    <rect x="258" y="206" width="22" height="40" rx="11"/>
+  </g>
+
+  <!-- Monitor inferior esquerdo -->
+  <g>
+    <rect x="52" y="230" width="112" height="74" rx="10" class="b"/>
+    <rect x="76" y="250" width="64" height="38" rx="4" class="w"/>
+    <rect x="98" y="306" width="20" height="16" rx="4" class="b"/>
+    <rect x="84" y="322" width="48" height="16" rx="8" class="b"/>
+  </g>
+
+  <!-- Monitor inferior direito -->
+  <g>
+    <rect x="180" y="230" width="112" height="74" rx="10" class="b"/>
+    <rect x="204" y="250" width="64" height="38" rx="4" class="w"/>
+    <rect x="226" y="306" width="20" height="16" rx="4" class="b"/>
+    <rect x="212" y="322" width="48" height="16" rx="8" class="b"/>
+  </g>
+</svg>

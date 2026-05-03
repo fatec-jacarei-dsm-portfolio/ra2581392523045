@@ -1,3 +1,313 @@
+<<<<<<< HEAD
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Site pessoal de Thales Cambraia Dias — Gestão de TI, Infra, Virtualização e Projetos." />
+  <title>Thales Cambraia Dias</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <a class="brand" href="#top" aria-label="Voltar ao topo">
+        <span class="brand__dot"></span>
+        <span class="brand__name">ThalesCambraiaDias</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="nav__link" href="#sobre">Sobre</a>
+        <a class="nav__link" href="#solucoes">Soluções</a>
+        <a class="nav__link" href="#skills">Tech Skills</a>
+        <a class="nav__link" href="#contato">Fale comigo</a>
+        <a class="nav__link" href="#projetos">Projetos</a>
+      </nav>
+
+      <div class="header__actions">
+        <button id="themeBtn" class="theme-btn" type="button" aria-label="Alternar tema">
+          <span class="theme-btn__icon" id="themeIcon">🌙</span>
+          <span class="theme-btn__text" id="themeText">Modo escuro</span>
+        </button>
+
+        <button class="nav__toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Sou</p>
+
+          <!-- ✅ TÍTULO COM TYPEWRITER -->
+          <h1 class="hero__title">
+            <span id="typing" aria-live="polite"></span><span class="typing-cursor" aria-hidden="true">|</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            <strong>Thales Cambraia Dias</strong> atuo há mais de uma década com infraestrutura de TI. Nos últimos anos, tenho trabalhado como gestor de tecnologia, com experiência em redes,
+            servidores físicos e em nuvem, virtualização, paravirtualização e gestão de projetos.
+            Atualmente, sou estudante de Desenvolvimento de Sistemas Multiplataforma na FATEC.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary"
+              href="https://wa.me/5512988251494"
+              target="_blank"
+              rel="noreferrer">
+              Fale comigo
+            </a>
+            <a class="btn btn--ghost" href="#sobre">Conhecer minha trajetória</a>
+          </div>
+
+          <div class="social">
+            <a class="social__link"
+              href="https://github.com/thalestcd"
+              target="_blank"
+              rel="noreferrer">
+              GitHub
+            </a>
+            <a class="social__link"
+              href="https://www.linkedin.com/in/thales-tcd/"
+              target="_blank"
+              rel="noreferrer">
+              LinkedIn
+            </a>
+            <a class="social__link" href="https://wa.me/5512988251494" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+
+          <p class="hero__note">
+            <span class="pill">Infra • Redes • Virtualização</span>
+            <span class="pill">Projetos • Governança</span>
+          </p>
+        </div>
+
+        <div class="hero__media" aria-hidden="true">
+          <img id="heroImg" src="assets/img/foto_thales_perfil.png" alt="" />
+
+          <!-- Fallback (aparece se a imagem falhar) -->
+          <div id="heroFallback" class="media__placeholder" style="display:none;">
+            <strong>Foto não encontrada</strong><br/>
+            Verifique o caminho: <code>assets/img/foto_perfil_thales.png</code>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section__title">Sobre mim.</h2>
+
+        <div class="card">
+          <p>
+            Sou apaixonado por tecnologia e atuo na área há mais de uma década.
+            Tenho experiência com <strong>servidores físicos</strong>, <strong>redes</strong>,
+            <strong>ambientes em nuvem</strong>, <strong>virtualização/paravirtualização</strong>
+            e <strong>gestão de tecnologia</strong>.
+          </p>
+
+          <p>
+            Estou sempre buscando evolução, hoje curso <strong>Desenvolvimento de Sistemas Multiplataforma (FATEC)</strong>,
+            unindo a vivência de infraestrutura com uma visão cada vez mais completa de software.
+            Sou casado e pai de dois filhos, o que reforça meu foco em organização, consistência e resultado.
+          </p>
+
+          <div class="badges">
+            <span class="badge">ETEC — Técnico em Redes</span>
+            <span class="badge">ETEP — Redes de Computadores</span>
+            <span class="badge">ETEC — Gestão de Projetos</span>
+            <span class="badge">FATEC — DSM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucoes" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Soluções.</h2>
+
+        <div class="grid">
+          <article class="tile">
+            <h3 class="tile__title">Gestão de Tecnologia</h3>
+            <p class="tile__text">Organização de operações, melhoria de processos, governança e planejamento.</p>
+          </article>
+
+          <article class="tile">
+            <h3 class="tile__title">Virtualização / Paravirtualização</h3>
+            <p class="tile__text">Estruturação de ambientes virtuais com foco em performance, segurança e alta disponibilidade.</p>
+          </article>
+
+          <article class="tile">
+            <h3 class="tile__title">Migração de Servidores</h3>
+            <p class="tile__text">Planejamento e execução de migrações com mínimo impacto e trilha de validação.</p>
+          </article>
+
+          <article class="tile">
+            <h3 class="tile__title">Gestão de Projetos</h3>
+            <p class="tile__text">Cronograma, riscos, alinhamento com stakeholders e entrega com previsibilidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <section id="projetos" class="section">
+  <div class="container">
+    <h2 class="section__title">Projetos Acadêmicos</h2>
+
+    <div class="grid">
+      <!-- Projeto 1 -->
+      <article class="tile">
+        <h3 class="tile__title">🌱 AgriRSLAB Portal</h3>
+        <p class="tile__text">
+          Projeto desenvolvido no 1º semestre da FATEC, com foco em solução tecnológica para o agronegócio.
+        </p>
+        <p class="tile__text">
+          Tecnologias: HTML, CSS, JavaScript, Git
+        </p>
+        <a class="btn btn--ghost"
+          href="https://github.com/thalestcd/ABP-Undefined"
+          target="_blank">
+          Ver Projeto
+        </a>
+      </article>
+
+      <!-- Projeto 2 -->
+      <article class="tile">
+        <h3 class="tile__title">🏫 Secretaria Acadêmica</h3>
+        <p class="tile__text">
+          Projeto em desenvolvimento no 2º semestre, simulando um sistema acadêmico completo.
+        </p>
+        <p class="tile__text">
+          Tecnologias: Node.js, PostgreSQL, API REST
+        </p>
+        <a class="btn btn--ghost"
+          href="https://github.com/abpundefined/2DSM-ABP-UNDEFINED"
+          target="_blank">
+          Ver Projeto
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+      <div class="container">
+        <h2 class="section__title">tech.skills</h2>
+
+        <div class="skills skills--logos">
+          <div class="skill" title="Active Directory, GPO, Services, etc.">
+            <img src="assets/img/windows.svg" alt="Windows Server">
+            <span>Windows Server</span>
+          </div>
+
+          <div class="skill" title="Debian, administração e serviços">
+            <img src="assets/img/debian.svg" alt="Debian / Linux">
+            <span>Debian / Linux</span>
+          </div>
+
+          <div class="skill" title="Cloud, VPS, Deploy e gestão de ambiente">
+            <img src="assets/img/vps.svg" alt="VPS / Cloud">
+            <span>VPS / Cloud</span>
+          </div>
+
+          <div class="skill" title="Switching, VLAN, Wi-Fi, TCP/IP">
+            <img src="assets/img/redes.svg" alt="Redes">
+            <span>Redes</span>
+          </div>
+
+          <div class="skill" title="Versionamento e colaboração">
+            <img src="assets/img/github.svg" alt="Git">
+            <span>GitHub</span>
+          </div>
+
+          <div class="skill" title="Ambiente de desenvolvimento">
+            <img src="assets/img/vscode.svg" alt="VS Code">
+            <span>VS Code</span>
+          </div>
+
+          <div class="skill" title="Wi-Fi corporativo, controller, APs">
+            <img src="assets/img/unifi.svg" alt="UniFi">
+            <span>UniFi</span>
+          </div>
+
+          <div class="skill" title="Backup, replicação e rotinas">
+            <img src="assets/img/veeam.svg" alt="Veeam">
+            <span>Veeam</span>
+          </div>
+
+          <div class="skill" title="Scripts e rotinas (PowerShell / Bash)">
+            <img src="assets/img/automacao.svg" alt="Automação">
+            <span>Automação</span>
+          </div>
+
+          <div class="skill" title="Monitoramento e alertas">
+            <img src="assets/img/zabbix.svg" alt="Zabbix">
+            <span>Zabbix</span>
+          </div>
+
+          <div class="skill" title="Clusters, VMs e storage">
+            <img src="assets/img/proxmox.svg" alt="Proxmox">
+            <span>Proxmox</span>
+          </div>
+
+          <div class="skill" title="Planejamento, riscos, cronograma">
+            <img src="assets/img/projetos.svg" alt="Gestão de Projetos">
+            <span>Gestão de Projetos</span>
+          </div>
+
+          <div class="skill" title="Roteamento, firewall, QoS">
+            <img src="assets/img/mikrotik.svg" alt="MikroTik">
+            <span>MikroTik</span>
+          </div>
+
+          <div class="skill" title="Compartilhamento e permissões (SMB)">
+            <img src="assets/img/fileserver.svg" alt="File Server">
+            <span>File Server</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Fale comigo.</h2>
+
+        <div class="contact">
+          <div class="card">
+            <p class="contact__lead">
+              Quer conversar sobre um projeto, infraestrutura ou melhorias em TI?
+              Me chama, respondo rápido.
+            </p>
+
+            <div class="contact__grid">
+              <a class="contact__item" href="mailto:thales.tcd@gmail.com">e-mail: thales.tcd@gmail.com</a>
+              <a class="contact__item" href="https://wa.me/5512988251494" target="_blank" rel="noreferrer">WhatsApp</a>
+              <a class="contact__item" href="https://www.linkedin.com/in/thales-tcd/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <p>© <span id="year"></span> • thalescambraiadias.com.br</p>
+          </footer>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ <script src="script.js?v=3"></script>
+=======
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -7,5 +317,6 @@
 </head>
 <body>
     <h1>Bem vindo ao Portfólio de THALES CAMBRAIA DIAS</h1>
+>>>>>>> cb55d926d5c876bb78daa1274f9c060b0b8bb816
 </body>
 </html>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344" height="348" viewBox="0 0 344 348" fill="none">
+  <!-- Colors (aprox. do seu logo) -->
+  <!-- roxo: #8F9DD1  | roxo escuro: #7E88C6 | amarelo: #F3C96B | amarelo escuro: #E6B856 | branco: #FFFFFF -->
+
+  <!-- Base (servidor de baixo) -->
+  <g>
+    <rect x="58" y="190" width="228" height="92" rx="20" fill="#F3C96B"/>
+    <rect x="58" y="190" width="228" height="92" rx="20" fill="url(#shadowGold)"/>
+    <!-- Detalhes brancos -->
+    <rect x="88" y="214" width="150" height="14" rx="7" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="88" y="248" width="115" height="14" rx="7" fill="#FFFFFF" opacity="0.95"/>
+    <circle cx="256" cy="246" r="12" fill="#FFFFFF" opacity="0.95"/>
+  </g>
+
+  <!-- Base (servidor de cima) -->
+  <g>
+    <rect x="44" y="122" width="240" height="84" rx="20" fill="#F3C96B"/>
+    <rect x="44" y="122" width="240" height="84" rx="20" fill="url(#shadowGold2)"/>
+    <!-- Detalhes brancos -->
+    <rect x="74" y="146" width="170" height="14" rx="7" fill="#FFFFFF" opacity="0.95"/>
+    <rect x="74" y="170" width="150" height="14" rx="7" fill="#FFFFFF" opacity="0.95"/>
+  </g>
+
+  <!-- Nuvem -->
+  <g>
+    <path
+      d="M214 58
+         C197 58 183 68 177 82
+         C175 81 172 81 169 81
+         C152 81 138 95 138 112
+         C118 113 102 129 102 149
+         C102 170 119 187 140 187
+         H254
+         C275 187 292 170 292 149
+         C292 128 275 111 254 111
+         C252 81 236 58 214 58Z"
+      fill="#8F9DD1"/>
+    <path
+      d="M214 58
+         C197 58 183 68 177 82
+         C175 81 172 81 169 81
+         C152 81 138 95 138 112
+         C118 113 102 129 102 149
+         C102 170 119 187 140 187
+         H254
+         C275 187 292 170 292 149
+         C292 128 275 111 254 111
+         C252 81 236 58 214 58Z"
+      fill="url(#shadowPurple)"/>
+  </g>
+
+  <!-- Texto VPS -->
+  <g fill="#FFFFFF">
+    <!-- V -->
+    <path d="M146 98 L162 156 H175 L191 98 H178 L168 136 L158 98 Z" opacity="0.98"/>
+    <!-- P -->
+    <path d="M199 98 H224 C238 98 248 107 248 121 C248 135 238 144 224 144 H213 V156 H199 Z
+             M213 111 V131 H222 C229 131 234 127 234 121 C234 115 229 111 222 111 Z" opacity="0.98"/>
+    <!-- S -->
+    <path d="M273 110 C271 102 263 96 251 96 C238 96 229 104 229 114
+             C229 123 235 129 246 132 L256 135
+             C263 137 266 140 266 145
+             C266 151 260 156 251 156
+             C242 156 236 152 234 145
+             L221 148
+             C224 160 236 168 251 168
+             C267 168 279 160 279 145
+             C279 135 272 128 259 125 L249 122
+             C242 120 241 118 241 114
+             C241 110 245 107 251 107
+             C257 107 262 110 263 115 Z" opacity="0.98"/>
+  </g>
+
+  <defs>
+    <!-- Sombras suaves -->
+    <linearGradient id="shadowGold" x1="58" y1="190" x2="286" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6B856" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shadowGold2" x1="44" y1="122" x2="284" y2="206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6B856" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shadowPurple" x1="120" y1="70" x2="292" y2="187" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7E88C6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

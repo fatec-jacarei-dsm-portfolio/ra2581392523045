@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <g fill="#3AA6DE">
+    <!-- Janela superior esquerda -->
+    <path d="M32 48 L120 36 V116 H32 Z"/>
+    <!-- Janela superior direita -->
+    <path d="M136 34 L224 22 V116 H136 Z"/>
+    <!-- Janela inferior esquerda -->
+    <path d="M32 140 H120 V220 L32 208 Z"/>
+    <!-- Janela inferior direita -->
+    <path d="M136 140 H224 V234 L136 220 Z"/>
+  </g>
+</svg>
