@@ -14,6 +14,12 @@
 
 ---
 
+🎬 Vídeo de Apresentação
+
+📺 Link do vídeo:
+https://www.youtube.com/watch?v=THr0vkPW3kU
+
+
 ## 📚 Projetos Acadêmicos
 
 ### 🌱 AgriRSLAB Portal (1º Semestre)
