@@ -1,14 +1,17 @@
 # Portfólio de Projetos - Fatec Jacareí
 
-Aluno: Thales Cambraia Dias
+**Aluno:** Thales Cambraia Dias  
+**Curso:** Desenvolvimento de Software Multiplataforma  
+**Turma:** 2º Semestre de 2025
 
-Curso: Desenvolvimento de Software Multiplataforma
+---
 
-Turma: 2º Semestre de 2025
+**Portfólio Online**
 
-Portfólio Online
+🔗 [Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523045/)
 
-[Acesse o Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523045/)
+---
 
+**Vídeos de Apresentação**
 
-[Vídeo de Apresentação](https://www.youtube.com/watch?v=THr0vkPW3kU)
+🎤 2DSM - [Vídeo](https://www.youtube.com/watch?v=THr0vkPW3kU) 
